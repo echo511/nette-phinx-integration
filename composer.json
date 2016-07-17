@@ -1,0 +1,19 @@
+{
+    "name": "echo511/nette-phinx-integration",
+    "description": "Integration of Phinx into Nette using Kdyby/Console.",
+    "require": {
+        "kdyby/console": "^2.6",
+        "robmorgan/phinx": "^0.6.2",
+        "nette/di": "^2.4"
+    },
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "Nikolas Tsiongas",
+            "email": "ntisongas@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
